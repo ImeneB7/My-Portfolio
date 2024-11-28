@@ -1,0 +1,198 @@
+@import '../sass/utils/mixins';
+@import '../sass/utils/variables';
+
+.about_title {
+    @include center;
+    background: #fff;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    flex-direction: column;
+    font-size: 48px;
+    margin-top: 2rem;
+    font-family: $font-family;
+    opacity: 0;
+    transform: translateX(50px);
+    animation: slideInFromRight 1.5s ease-out forwards;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    //box-shadow: 0 0 15px #C77DFF;//
+}
+
+.about-me {
+    background: linear-gradient(90deg, #2d0046, #0a022e);
+    box-shadow: 0 0 15px #C77DFF;
+    padding: 2rem;
+    border-radius: 20px;
+    max-width: 90%;
+    margin-top: 4rem;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 2s ease-out forwards;
+
+    p {
+        font-size: 22px;
+        line-height: 1.6;
+        color: #fff;
+        text-justify: auto;
+    }
+}
+
+.about_skills {
+    @include center;
+    background: linear-gradient(90deg, #2d0046, #0a022e);
+    box-shadow: 0 0 15px #C77DFF;
+    padding-right: 10px;
+    border-radius: 20px;
+    width: 90%;
+    margin-top: 4rem;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 2s ease-out forwards;
+
+    div {
+        
+        :hover + .tooltip {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        img {
+            size: 50px;
+            position: relative;
+    
+            
+        }
+    
+        .tooltip {
+            position: absolute;
+            bottom: 190px;
+            transform: translateX(-50%) translateY(10px);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            padding: 8px 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            text-align: center;
+            opacity: 0;
+            transition: opacity 0.3s, transform 0.3s;
+            pointer-events: none;
+            white-space: wrap;
+            z-index: 10;
+        }
+    }
+    
+}
+
+.about-links {
+    @include center;
+    background: linear-gradient(90deg, #2d0046, #0a022e);
+    box-shadow: 0 0 15px #C77DFF;
+    padding-right: 10px;
+    border-radius: 20px;
+    width: 90%;
+    height: 100px;
+    margin-top: 4rem;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 2s ease-out forwards;
+
+    p {
+        color: #fff;
+        font-size: 22px;
+        margin: 20px;
+    }
+
+    a {
+        color: #fff;
+        font-size: 24px;
+        margin-right: 20px;
+    }
+
+    img {
+        width: 100px;
+
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 769px) {
+    .about_title, .about-container, .about-me, .about_skills {
+        position: relative;
+        top: 10px;
+    }
+
+    .about-me {
+        max-height: 50vh; // Limite la hauteur du conteneur
+        overflow-y: auto; // Active la barre de défilement verticale si nécessaire
+        padding: 1rem; // Ajuste le padding pour le design mobile
+        scrollbar-width: thin;
+    }
+
+    .about_title {
+        margin-top: 120px;
+        font-size: 28px;
+    }
+
+    .about-me {
+
+        p {
+           font-size: 18px; 
+        }    
+    }
+
+    .about_skills {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        img {
+            margin-left: 45%;
+            width: 40px;
+        }
+    }
+
+    .about-links {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+        p, a {
+            font-size: 15px;         
+        }
+        
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+
+    .about_skills {
+
+        img {
+            width: 60px;
+        }
+    }
+}

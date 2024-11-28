@@ -1,0 +1,91 @@
+@import '../sass/utils/mixins';
+@import '../sass/utils/_variables';
+
+.contact {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 2s ease-out forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.contact_form {
+    border: 2px solid #fff;
+    background: linear-gradient(90deg, #2d0046, #0a022e);
+    max-width: 600px;
+    width: 100%;
+    padding: 25px 25px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    color: #333;
+    margin: 25px;
+
+    h2 {
+        color: #fff;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .input-box {
+        color: #fff;
+        margin-top: 20px;
+
+        .field {
+            width: 100%;
+            height: 50px;
+            background: transparent;
+            border: 2px solid #ddd;
+            outline: none;
+            border-radius: 6px;
+            padding: 15px;
+            font-size: 16px;
+            color: #fff;
+            margin-top: 8px;
+        }
+
+        .field.mess {
+            height: 200px;
+            resize: none;
+        }
+    }
+
+    button {
+        width: 100%;
+        height: 55px;
+        background: #826afb;
+        border: none;
+        border-radius: 6px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+        cursor: pointer;
+        font-size: 16px;
+        color: #fff;
+        font-weight: 500;
+        margin-top: 25px;
+        transition: .5s;
+
+        &:hover {
+            background: #624ec6;
+        }
+    }
+}
+
+@media (max-width: 769px) {
+
+    .contact {
+        margin-top: 200px;
+    }
+}

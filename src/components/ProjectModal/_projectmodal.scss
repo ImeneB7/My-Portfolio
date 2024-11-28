@@ -1,0 +1,101 @@
+@import '../../sass/utils/mixins';
+@import '../../sass/utils/variables';
+
+.modal-overlay {
+    @include center;
+    position: fixed;
+    min-width: 100%;
+    top: 0;
+    left: 20;
+    right: 20;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+    @include center;
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    border: #fff 2px solid;
+    background: linear-gradient(90deg, #3c015c, #06011a);   
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    height: 600px;
+    width: 90%;
+
+    img {
+        @include center;
+        object-fit: fill;
+        max-width: 100%;
+        max-height: 300px;
+        border-radius: 20px;
+        overflow: hidden;
+        
+    }
+
+    h2 {
+        @include center;
+        font-size: 32px;
+        color: #C77DFF ;
+    }
+
+    p {
+        margin-top: 10px;
+        color: #fff;
+    }
+}
+
+.close-button {
+    color: #fff;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.github-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    
+    padding: 10px ;
+    border: 2px solid #C77DFF;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+
+    &:hover {
+        background-color: #C77DFF;
+        color: #fff;
+    }
+
+    img {
+        margin-right: 8px;
+        width: 20px;
+        height: 20px;
+    }
+}
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h3 {
+        color: #fff;
+        margin-bottom: 20px;
+    }
+   .skill-icons {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+} 
+}

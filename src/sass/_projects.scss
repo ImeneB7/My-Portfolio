@@ -1,0 +1,79 @@
+@import '../sass/utils/mixins';
+@import '../sass/utils/variables';
+
+.projet_title {
+    @include center;
+    background: #fff;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    flex-direction: column;
+    font-size: 48px;
+    margin-top: 80px;
+    font-family: $font-family;
+    opacity: 0;
+    transform: translateX(50px);
+    animation: slideInFromRight 1.5s ease-out forwards;
+
+    @keyframes slideInFromRight {
+        0% {
+            opacity: 0;
+            transform: translateX(50px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+}
+
+.container_project {
+    @include center;
+    margin-top: 120px;
+    border: #fff 2px solid;
+    background: linear-gradient(90deg, #2d0046, #0a022e);
+    width: 90%;
+    padding: 40px;
+    max-height: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    border-radius: 20px;
+    transform: translateY(30px);
+    animation: fadeInUp 1.5s ease forwards;
+
+    @keyframes fadeInUp {
+        0% {
+            opacity: 0;
+            transform: translateY(80px);
+        } 100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+
+    .projet_title {
+        position: relative;
+        top: 10%;
+    }
+    .container_project {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 769px) {
+
+    .projet_title {
+        margin-top: 10%;
+        font-size: 30px;
+    }
+
+    .container_project {
+        display: flex;
+        flex-direction: column;
+    }
+}

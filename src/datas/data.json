@@ -1,0 +1,212 @@
+[
+    {
+        "id": "project1",
+        "title": "Riding Cities",
+        "category": "HTML",
+        "projectdescription": "Riding Cities est une association sportive qui promeut le skate en région parisienne, elle souhaite améliorer son site internet",
+        "cover": "/projects/Riding.webp",
+        "alt": "Photo d'un skateboard",
+        "description":  "Ce projet consiste à découvrir le langage HTML",
+        "mission": "Je rejoins l'agence Bonzai pour effectuer un stage sous le statut de développeur web junior. Mon maître de stage me confie la tâche suivant : créer une nouvelle section pour les membres fondateurs et ajouter les planning adultes et enfants séparemment ",
+        "tags": ["HTML", "CSS"],
+        "logos": {
+            "HTML": "/img/html.webp",
+            "CSS": "/img/css.webp",
+            "Javascript": "/img/javascript.webp",
+            "React": "/img/react.webp",
+            "Sass": "/img/sass.webp",
+            "Trello": "/img/trello.webp"
+        },
+        "site": "",
+        "github": ""        
+    },
+    {
+        "id": "project2",
+        "title": "Booki",
+        "category": "HTML",
+        "projectdescription": "Booki est une agence d'hébergement qui souhaite permettre aux utilisateurs de trouver des hébergements et des activités dans une ville française de leur choix",
+        "cover": "/projects/booki.webp",
+        "alt": "Photo d'un hébergement",
+        "description":  "Ce projet consiste à intégrer l'interface du site Booki en utilisant du HTML et CSS",
+        "mission": "En tant que développeuse web en alternance, je rejoins l'agence d'hébergement Booki pour mettre en place l'interface du site.",
+        "tags": ["HTML", "CSS"],
+        "logos": {
+            "HTML": "/img/html.webp",
+            "CSS": "/img/css.webp",
+            "Javascript": "/img/javascript.webp",
+            "React": "/img/react.webp",
+            "Sass": "/img/sass.webp",
+            "Trello": "/img/trello.webp"
+        },
+        "site": "",
+        "github": ""       
+    },
+    {
+        "id": "project3",
+        "title": "OhMyFood",
+        "category": "HTML",
+        "projectdescription": "Ohmyfood est une start-up implantée à New-York qui souhaite s'imposer dans le domaine de la restauration notamment en s'installant à Paris",
+        "cover": "/projects/ohmyfood.webp",
+        "alt": "Photo d'un plat",
+        "description":  "Ce projet consiste à intégrer l'interface du site en commencant par la version mobile",
+        "mission": "J'intègre la start-up Ohmyfood pour concevoir l'interface mobile et responsive ainsi que des animations CSS.",
+        "tags": ["HTML", "Sass"],
+        "logos": {
+            "HTML": "/img/html.webp",
+            "CSS": "/img/css.webp",
+            "Javascript": "/img/javascript.webp",
+            "React": "/img/react.webp",
+            "Sass": "/img/sass.webp",
+            "Trello": "/img/trello.webp"
+        },
+        "site": "",
+        "github": "https://github.com/ImeneB7/ohmyfood"       
+    },
+    {
+        "id": "project4",
+        "title": "Print It",
+        "category": "Javascript",
+        "projectdescription": "Print It, entreprise familiale, souhaite dynamiser son site en intégrant un carousel",
+        "cover": "/projects/PrintIt.webp",
+        "alt": "Photo d'imagerie",
+        "description":  "Ce projet permets de découvrir le langage Javascript",
+        "mission": "Je décroche une offre en tant que freelance pour Print It afin de dynamiser leur site. Pour cela je mets en place un carousel dynamique.",
+        "tags": ["HTML", "CSS", "Javascript"],
+        "logos": {
+            "HTML": "/img/html.webp",
+            "CSS": "/img/css.webp",
+            "Javascript": "/img/javascript.webp",
+            "React": "//img/react.webp",
+            "Sass": "/img/sass.webp",
+            "Trello": "/img/trello.webp"
+        },
+        "site": "",
+        "github": "https://github.com/ImeneB7/print-it"        
+    },
+    {
+        "id": "project5",
+        "title": "Portfolio - Sophie Bluel",
+        "category": "Javascript",
+        "projectdescription": "L'architecte d'intérieur Sophie Bluel aimerait mettre en avant son site sous forme de portfolio dans lequel elle pourra y ajouter son travail via une interface admin",
+        "cover": "/projects/sophiebluel.webp",
+        "alt": "photo de l'interface du site",
+        "description":  "Ce projet nous apprends la conception d'un portfolio avec Javascript et la communication avec l'API",
+        "mission": "Je travaille en tant que développeuse web dans l'agence Archiwebos. A l'aide d'une maquette je dois créer l'interface du site et la gestion de compte de l'architecte grâce à l'API fournie par le développeur backend",
+        "tags": ["HTML", "CSS", "Javascript"],
+        "logos": {
+            "HTML": "/img/html.webp",
+            "CSS": "/img/css.webp",
+            "Javascript": "/img/javascript.webp",
+            "React": "/img/react.webp",
+            "Sass": "/img/sass.webp",
+            "Trello": "/img/trello.webp"
+        },
+        "site": "",
+        "github": "https://github.com/ImeneB7/Portfolio-Sophie-Bluel"        
+    },
+    {
+        "id": "project6",
+        "title": "Kasa",
+        "category": "React",
+        "projectdescription": "Kasa, agence de location d'appartement, souhaite développer son site web avec React",
+        "cover": "/projects/kasa.webp",
+        "alt": "Photo de l'interface du site de l'agence",
+        "description":  "Ce projet nous apprends à coder un site avec React",
+        "mission": "Je suis en mission dans l'agence Kasa en tant que développeuse web en freelance. Je dois mettre en place l'application web en utilisant React",
+        "tags": ["React"],
+        "logos": {
+            "HTML": "/img/html.webp",
+            "CSS": "/img/css.webp",
+            "Javascript": "/img/javascript.webp",
+            "React": "/img/react.webp",
+            "Sass": "/img/sass.webp",
+            "Trello": "/img/trello.webp"
+        },
+        "site": "",
+        "github": "https://github.com/ImeneB7/kasa"        
+    },
+    {
+        "id": "project7",
+        "title": "Nina Carducci",
+        "category": "SEO",
+        "projectdescription": "Nina Carducci est une photographe qui a besoin que son site soit mieux optimisé et référencé",
+        "cover": "/projects/ninacarducci.webp",
+        "alt": "Photo de l'interface du site de la photographe",
+        "description":  "Ce projet consiste à améliorer les performances et le référencement du site",
+        "mission": "Je suis développeuse web en freelance à la recherche de nouveaux clients afin de l'aider à optimiser leur site. Je contacte une photographe qui accepte que je l'aide dans l'optimisation et le référencement de son site",
+        "tags": ["SEO"],
+        "logos": {
+            "HTML": "/img/html.webp",
+            "CSS": "/img/css.webp",
+            "Javascript": "/img/javascript.webp",
+            "React": "/img/react.webp",
+            "Sass": "/img/sass.webp",
+            "Trello": "/img/trello.webp"
+        },
+        "site": "",
+        "github": "https://github.com/ImeneB7/NinaCarducci"        
+    },
+    {
+        "id": "project8",
+        "title": "724 Events",
+        "category": "Debug",
+        "projectdescription": "L'agence événementiel 724Events souhaite faire débugger son site",
+        "cover": "/projects/724events.webp",
+        "alt": "Photo de l'interface du site de l'agence événementiel",
+        "description":  "Ce projet nous apprends à débugger un site",
+        "mission": "Je suis développeuse web en freelance en mission chez l'agence évenementiel 724Events. Ma mission est de débugger le code du site créé par un autre développeur. Pour cela je mets en place des tests unitaires et un cahier de recette",
+        "tags": ["Debug"],
+        "logos": {
+            "HTML": "/img/html.webp",
+            "CSS": "/img/css.webp",
+            "Javascript": "/img/javascript.webp",
+            "React": "/img/react.webp",
+            "Sass": "/img/sass.webp",
+            "Trello": "/img/trello.webp"
+        },
+        "site": "",
+        "github": "https://github.com/ImeneB7/724-events"       
+    },
+    {
+        "id": "project9",
+        "title": "Argent Bank",
+        "category": "React",
+        "projectdescription": "Argent Bank est une nouvelle banque en ligne qui souhaite développer son application",
+        "cover": "/projects/argentbank.webp",
+        "alt": "Photo de l'interface du site de la banque en ligne",
+        "description":  "Ce projet nous apprends à implémenter le front end d'une application en utilisant React",
+        "mission": "Je travaille en tant que développeuse web au sein la banque en ligne Argent Bank. Ma mission est est d'implémenter le front de l'application et le tableau de bord de l'utilisateur en utilisant l'API",
+        "tags": ["React"],
+        "logos": {
+            "HTML": "/img/html.webp",
+            "CSS": "/img/css.webp",
+            "Javascript": "/img/javascript.webp",
+            "React": "/img/react.webp",
+            "Sass": "/img/sass.webp",
+            "Trello": "/img/trello.webp"
+        },
+        "site": "",
+        "github": "https://github.com/ImeneB7/Argent--Bank"        
+    },
+    {
+        "id": "project10",
+        "title": "Qwenta Menu Maker",
+        "category": "Gestion de projet",
+        "projectdescription": "Qwenta a besoin de planifier la conception de son futur site Menu Maker",
+        "cover": "/projects/qwenta.webp",
+        "alt": "Photo de l'interface du site Menu maker",
+        "description":  "Ce projet nous apprends à planifier le développement du futur site du client Qwenta",
+        "mission": "Je travaille en tant que développeur web dans l'agence Webgencia. Pour cette mission je dois planifier le projet de développement du site Menu maker en m'aidant de la méthode agile et scrum et en utilisant un outil de gestion comme Trello ou notion",
+        "tags": ["Trello"],
+        "logos": {
+            "HTML": "/img/html.webp",
+            "CSS": "/img/css.webp",
+            "Javascript": "/img/javascript.webp",
+            "React": "/img/react.webp",
+            "Sass": "/img/sass.webp",
+            "Trello": "/img/trello.webp"
+        },
+        "site": "",
+        "github": ""        
+    }
+]
